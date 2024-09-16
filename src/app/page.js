@@ -75,7 +75,7 @@ export default function Home() {
         </div>
         <div className="col-span-2 max-w-lg mx-auto">
           <div className="sticky top-0 pt-12">
-            <h2 className="font-semibold prose-h2">About Author</h2>
+            <h2 className="font-semibold prose-h2 text-center">About Author</h2>
             <Link href="/about">
               <Image
                 src={siteMetadata.avatar}

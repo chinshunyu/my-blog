@@ -28,17 +28,17 @@
 const siteMetadata = {
   title: "JohnCachy's blog",
   author: "JohnCachy",
-  authorDesc:"自我批判和反叛思考",
+  authorDesc:"A programer coding for himself",
   publishName: "JohnCachy",
-  headerTitle: "What's past is prologue",
-  description:
-    "对当下的反思和批判",
+  headerTitle: "Programming ·  life · random thoughts",
+  // description:
+  //   "对当下的反思和批判",
   language: "zh-CN",
   keywords:['prologue', '序章'],
   siteUrl: "https://johncachy.us.kg/",
   siteRepo: "my-blog",
   repoid:"R_kgDOMsx20A",
-  categoryid: "IC_kwDOMsx20M4CigkS",
+  categoryid: "DIC_kwDOMsx20M4CigkS",
   siteLogo: "/static/favicons/favicon.ico",
   avatar: "/static/favicons/avatar.jpeg",
   cover: "/static/favicons/cover.png",
