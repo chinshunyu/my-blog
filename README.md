@@ -2,7 +2,6 @@
 
 Next.js13 + tailwindcss + contentlayer + MDX Blog
 
-这是一个由Next.js生态拼凑而生的博客（笔者没有任何技术）。
 
 ## Features
 
@@ -16,9 +15,6 @@ Next.js13 + tailwindcss + contentlayer + MDX Blog
 - 完整的SEO支持，Opengraph、JSON-LD和RSS
 - 轻量级的搜索引擎，Fuse.js实现全文搜索和模糊搜索
 
-![Index Screenshot](/public/static/images/Index-Screenshot.jpg)
-
-![Post Screenshot](/public/static/images/Post-Screenshot.jpg)
 
 ## Get Started
 
@@ -26,6 +22,8 @@ Next.js13 + tailwindcss + contentlayer + MDX Blog
 
 ```
 npm install
+npm run build
+npm run dev
 ```
 
 You can easily customize this site, all configurations are in `/data`,static files are in `/public`

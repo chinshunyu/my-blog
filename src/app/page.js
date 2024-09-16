@@ -17,8 +17,8 @@ export default function Home() {
 
   return (
     <div>
-      <div className="mx-auto max-w-2xl py-28 max-h-screen mt-8">
-        <h1 className="text-2xl font-semibold py-8">
+      <div className="max-w-full py-16 max-h-screen mt-1 w-full">
+        <h1 className="text-2xl font-semibold w-full py-4 text-left ml-0">
           {siteMetadata.headerTitle}
         </h1>
         <p className="text-xl">{siteMetadata.description}</p>
