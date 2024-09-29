@@ -17,7 +17,7 @@
 //   cover: "/static/favicons/cover.png",
 //   email: "author@prologue.dev",
 //   github: "moreanlog",
-//   twitter: "@huaixuOvO",
+//   twitter: "@johncachyjp",
 //   twitterid:"1507965040603074564",
 // };
 
@@ -42,10 +42,10 @@ const siteMetadata = {
   siteLogo: "/static/favicons/favicon.ico",
   avatar: "/static/favicons/avatar.jpeg",
   cover: "/static/favicons/cover.png",
-  email: "johncachyjp@gmail.com",
+  email: "ami@johncachy.us.kg",
   github: "chinshunyu",
-  twitter: "@huaixuOvO",
-  twitterid:"1507965040603074564",
+  twitter: "@johncachyjp",
+  // twitterid:"1507965040603074564",
 };
 
 module.exports = siteMetadata;
