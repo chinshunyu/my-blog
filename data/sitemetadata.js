@@ -34,7 +34,7 @@ const siteMetadata = {
   // description:
   //   "对当下的反思和批判",
   language: "zh-CN",
-  keywords:['prologue', '序章'],
+  keywords:['JohnCachy', '博客'],
   siteUrl: "https://johncachy.us.kg/",
   siteRepo: "my-blog",
   repoid:"R_kgDOMsx20A",

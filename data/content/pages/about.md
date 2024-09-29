@@ -18,8 +18,14 @@ className="rounded-full max-w-md mx-auto shadow drop-shadow mt-8 hover:shadow-lg
 无奈苍狗看云，红羊数劫，惘惘休提起。客气渐多真气少，汩没心灵何已。千古声名，百年担负，事事违初意。心头阁住，儿时那种情味。
 
 
+
 ## 订阅
 
 已添加[RSS全文输出订阅](/rss)。
 
 <sup>最后修改于2024年9月16日</sup>
+
+*如果你觉得我的内容不错，考虑请我喝杯咖啡吗？*
+*if you like what i do, maybe consider buying me a coffee/tea* 🥺👉👈
+
+<a href="https://buymeacoffee.com/johncachy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
