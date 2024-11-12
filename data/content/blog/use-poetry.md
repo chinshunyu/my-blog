@@ -561,4 +561,8 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 *如果你觉得我的内容不错，考虑请我喝杯咖啡吗？*
 *if you like what i do, maybe consider buying me a coffee/tea* 🥺👉👈
 
-<a href="https://buymeacoffee.com/johncachy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+<p className="py-2 text-center mx-auto prose-p">
+    <a href="https://buymeacoffee.com/johncachy" target="_blank" className="block text-center">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150"  className="mx-auto" style={{ marginTop: '20px' }} />
+    </a>
+</p>
