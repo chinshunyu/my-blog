@@ -557,12 +557,4 @@ default = true
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 ```
 
----
-*如果你觉得我的内容不错，考虑请我喝杯咖啡吗？*
-*if you like what i do, maybe consider buying me a coffee/tea* 🥺👉👈
 
-[![buy me a coffee](https://cdn.buymeacoffee.com/buttons/v2/default-red.png)](https://buymeacoffee.com/johncachy)
-
-<a href="https://buymeacoffee.com/johncachy">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="buy me a coffee" width="150" height="50">
-</a>
