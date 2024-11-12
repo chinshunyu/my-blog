@@ -9,6 +9,7 @@ python用户对conda这款流行的包管理工具一定不会感到陌生。然
 ## poetry 是什么
 
 > https://python-poetry.org
+
 Poetry 差不多是 pip + venv，的结合体。可以类似 pip 用于管理第三方模块的管理，但是比 pip 的功能强大许多，同时还包含 venv 的虚拟环境管理功能。大致的功能如下：
 
 - 管理第三方模块的安装与卸载
@@ -169,12 +170,14 @@ Using virtualenv: /Users/username/Library/Caches/pypoetry/virtualenvs/poetry-tes
 poetry env use python 是使用当前命令行下激活的 python 解释器创建虚拟环境
 也可以将指令最后的 python ，改为 python3、python3.8，之类的，甚至只要需要 3.8，只要确保对于的解释器能够在环境变量中找到。
 更多的配置可以查看 [官方文档](https://python-poetry.org/docs/managing-environments/)
-poetry 默认会将虚拟环境统一放在指定目录，例如刚刚创建的项目就放在 /Users/username/Library/Caches/pypoetry/virtualenvs/ 目录当中
-虚拟环境的命名模式为 项目名-随机数-python版本
+
+poetry 默认会将虚拟环境统一放在指定目录，例如刚刚创建的项目就放在 /Users/username/Library/Caches/pypoetry/virtualenvs/ 目录当中。
+
+虚拟环境的命名模式为 项目名-随机数-python版本。
 
 ## 在当前项目下创建虚拟环境
 
-我们可以使用 poetry config --list 指令来查看 poetry 的几个主要设定
+我们可以使用 poetry config --list 指令来查看 poetry 的几个主要设定：
 
 ```shell
 ╭─   ~/coding/poetry_test                                                                         82%   21:21  11.11  
@@ -208,7 +211,7 @@ poetry config virtualenvs.in-project true
 
 先把之前创建的虚拟环境删除
 
-```
+```shell
 ╭─   ~/coding/poetry_test                                                                         82%   21:28  11.11  
 ╰ poetry env remove python
 Deleted virtualenv: /Users/username/Library/Caches/pypoetry/virtualenvs/poetry-test-ynfwcHPh-py3.13
@@ -558,8 +561,4 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 *如果你觉得我的内容不错，考虑请我喝杯咖啡吗？*
 *if you like what i do, maybe consider buying me a coffee/tea* 🥺👉👈
 
-<p className="py-2 text-center mx-auto prose-p">
-    <a href="https://buymeacoffee.com/johncachy" target="_blank" className="block text-center">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150"  className="mx-auto" style={{ marginTop: '20px' }} />
-    </a>
-</p>
+<a href="https://buymeacoffee.com/johncachy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
