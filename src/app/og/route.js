@@ -21,7 +21,7 @@ export async function GET(request) {
               style={{
                 display: "flex",
                 fontSize: 70,
-                fontStyle: "normal",
+                fonnpmtStyle: "normal",
                 color: "white",
                 marginTop: 30,
                 lineHeight: 1.8,

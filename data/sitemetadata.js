@@ -39,7 +39,7 @@ const siteMetadata = {
   siteRepo: "my-blog",
   repoid:"R_kgDOMsx20A",
   categoryid: "DIC_kwDOMsx20M4CigkS",
-  siteLogo: "/static/favicons/favicon.ico",
+  siteLogo: "/static/favicons/avatar.jpeg",
   avatar: "/static/favicons/avatar.jpeg",
   cover: "/static/favicons/cover.png",
   email: "ami@johncachy.us.kg",
