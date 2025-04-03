@@ -110,8 +110,47 @@ export default function Home() {
             <p className="py-4 text-center mx-auto prose-p">
               {siteMetadata.authorDesc}
             </p>
+            
+            <h3 className="font-semibold text-center mt-4 mb-3">个人项目</h3>
+            <div className="grid grid-cols-1 gap-3 px-4 max-w-xs mx-auto">
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">AI修图</span>
+                <Link href="https://ps.amiverse.uk/" className="text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300 text-sm transition duration-300">
+                  AI-PS
+                </Link>
+              </div>
+              
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">AI教师</span>
+                <Link href="https://tutor.amiverse.uk/" className="text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300 text-sm transition duration-300">
+                  Ami-tutor
+                </Link>
+              </div>
+              
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">AI搜索</span>
+                <Link href="https://aisearch.amiverse.uk/" className="text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300 text-sm transition duration-300">
+                  AI-Search
+                </Link>
+              </div>
+              
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">极简搜索</span>
+                <Link href="http://search.amiverse.uk/" className="text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300 text-sm transition duration-300">
+                  Ami-Search
+                </Link>
+              </div>
+              
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">大模型聊天</span>
+                <Link href="https://gpt.amiverse.uk/" className="text-cyan-600 hover:text-cyan-500 dark:text-cyan-400 dark:hover:text-cyan-300 text-sm transition duration-300">
+                  Ami-gpt
+                </Link>
+              </div>
+            </div>
+            
             <Link href="/about" passHref>
-              <p className="text-right text-sm pt-2 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:underline transition duration-400">
+              <p className="text-right text-sm pt-4 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:underline transition duration-400">
                 About More →
               </p>
             </Link>
