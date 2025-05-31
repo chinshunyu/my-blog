@@ -1,7 +1,9 @@
 ---
-title: UV: 更加现代化的Python包管理工具
+title: UV:更加现代化的Python包管理工具
 publishDate: 2025-05-31
 description: 从此抛弃conda
+tags: [python, uv, 包管理]
+draft: false
 ---
 
 
